@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Tours",
+    "fullLayout": false
+  },
+  {
+    "id": "2",
+    "name": "Eat & Drink",
+    "fullLayout": true
+  },
+  {
+    "id": "3",
+    "name": "Passes",
+    "fullLayout": false
+  }
+]
