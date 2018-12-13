@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 import Header from '../../components/Header';
 import Button from '../../components/Button';
 import Section from '../../components/Section';
+import Separator from '../../components/Separator';
 import BackButton from '../../components/BackButton';
 import DetailsSection from '../../components/DetailsSection';
 
@@ -16,7 +17,7 @@ class Details extends Component {
     item: null,
     related: []
   }
-  
+
   componentDidMount() {
     this.getData(this.props.match.params.id);
   }
@@ -47,6 +48,7 @@ class Details extends Component {
           disableSearch={true}
         />
         <DetailsSection { ...item } />
+        <Separator />
         <Section
           title="Related Experiences"
           cards={related}

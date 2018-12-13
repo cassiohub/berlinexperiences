@@ -27,6 +27,11 @@ export const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
   }
+
+  #root {
+    max-width: 768px;
+    margin: auto;
+  }
 `;
 
 
@@ -35,7 +40,7 @@ export const Theme = {
   clearColor: '#FAFAFA',
   baseColor: '#333333',
   mutedColor: '#999999',
-  
+
   fontXLarge: '4em',
   fontLarge: '2em',
   fontMedium: '1em',

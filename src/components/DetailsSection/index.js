@@ -13,6 +13,7 @@ import { Row, Column } from '../Grid';
 import {
   Wrapper,
   Content,
+  Text,
 } from './style';
 
 const DetailsSection = ({ title, ...props }) => (
@@ -28,7 +29,14 @@ const DetailsSection = ({ title, ...props }) => (
               <Rating value={props.rating}/>
             </Column>
             <Column width="40%">
-              <Currency symbol={props.currency} value={props.price} />
+              <Currency featured={true} symbol={props.currency} value={props.price} />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Text>
+                { props.description }
+              </Text>
             </Column>
           </Row>
         </Content>

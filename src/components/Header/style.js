@@ -12,6 +12,11 @@ export const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+
+  @media (max-width: 480px) {
+    height: 180px;
+    padding: 1em;
+  }
 `;
 
 export const Title = styled.h1`
@@ -22,6 +27,11 @@ export const Title = styled.h1`
   padding: 0 0.3em;
   text-transform: uppercase;
   background: ${props => props.theme.clearColor};
+
+  @media (max-width: 480px) {
+    font-size: ${props => props.theme.fontLarge};
+    margin-bottom: 15px;
+  }
 
   & > a {
     &:hover,

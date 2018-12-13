@@ -7,12 +7,8 @@ export const Text = styled.p`
   display: flex;
   align-items: center;
 
-  strong {
-    margin-right: 5px;
-    font-style: normal;
-  }
   img {
     width: 17px;
-    margin-right: 10px;
+    margin-right: 8px;
   }
 `;

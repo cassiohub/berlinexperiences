@@ -16,6 +16,13 @@ export const Content = styled.div`
   justify-content: space-between;
 
   & > div {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
   }
+`;
+
+export const Text = styled.p`
+  color: ${props => props.theme.baseColor};
+  font-size: ${props => props.theme.fontMedium};
+  line-height: 1.5em;
+  white-space: pre-line;
 `;
