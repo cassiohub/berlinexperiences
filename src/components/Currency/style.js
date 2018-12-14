@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
   border-radius: ${props => props.featured ? '5px' : 0};
   color: ${props => props.featured ? props.theme.clearColor : props.theme.primaryColor};
   max-width: ${props => props.featured ? '150px' : 'unset'};
+  min-width: 125px;
 `;
 
 export const Prefix = styled.div`

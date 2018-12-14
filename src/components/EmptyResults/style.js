@@ -7,4 +7,5 @@ export const Wrapper = styled.p`
   text-align: center;
   color: ${props => props.theme.mutedColor};
   font-weight: 700;
+  white-space: pre-line;
 `;

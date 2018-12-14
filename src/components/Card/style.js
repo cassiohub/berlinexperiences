@@ -29,6 +29,7 @@ export const Body = styled.div`
 export const Featured = styled.div`
   width: ${props => props.full ? '100%' : '40%'};
   min-height: ${props => props.full ? '200px' : 'auto'};
+  background-color: ${props => props.theme.mutedColor};
 
   ${props => props.image ? `
     background-image: url(${props.image});

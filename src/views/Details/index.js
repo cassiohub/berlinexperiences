@@ -33,7 +33,12 @@ class Details extends Component {
   }
 
   getRelated = () => {
-    this.setState({ related: ExperienceService.list().filter(r => r.category === this.state.item.category).slice(0, 3) });
+    const { item } = this.state;
+    this.setState({
+      related: ExperienceService.list()
+        .filter(r => r.category === item.category && r.id !== item.id)
+        .slice(0, 3)
+    });
   }
 
   render() {

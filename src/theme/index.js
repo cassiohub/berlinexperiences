@@ -3,13 +3,12 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lato:900|Open+Sans:400,700,800');
   @import "../../node_modules/normalize.css/normalize.css";
-
+  
   body, html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    /* overflow: hidden; */
     background: #FAFAFA;
   }
 
@@ -31,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
   #root {
     max-width: 768px;
     margin: auto;
+    position: relative;
   }
 `;
 

@@ -9,13 +9,13 @@ import {
   Content
 } from './style';
 
-const Section = ({ title, cards, full, button }) => (
-  <Wrapper>
+const Section = ({ title, cards, full, button, emptyText, alignment }) => (
+  <Wrapper alignment={alignment}>
     <Title>{ title }</Title>
     <Content>
       { cards && cards.length
         ? cards.map((c, k) => <Card {...c} full={full} key={k} />)
-        : <EmptyResults>We couldn't find any results.<br/>Try searching for something else...</EmptyResults>
+        : <EmptyResults>{emptyText ? emptyText : "We couldn't find any results.\nTry searching for something else..."}</EmptyResults>
       }
     </Content>
     { button }

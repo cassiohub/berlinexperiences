@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import content from '../../data/content';
 
+import About from '../../components/About';
 import Header from '../../components/Header';
 import Button from '../../components/Button';
 import Section from '../../components/Section';
+import Separator from '../../components/Separator';
 
 import ExperienceService from '../../services/experiences';
 import CategoryService from '../../services/categories';
@@ -86,11 +89,20 @@ class Home extends Component {
                 title={c.name}
                 cards={cards.slice(0, limit)}
                 full={c.fullLayout}
+                carrousel={true}
                 key={k}
                 button={<Button to={`/categories/${c.id}`}>See More on {c.name}</Button>}
               />
             );
-           })
+          })
+        }
+
+        { !isSearching &&
+          <>
+            <Separator />
+              <About title="About Berlin" content={content.about} />
+            <Separator />
+          </>
         }
       </>
     );

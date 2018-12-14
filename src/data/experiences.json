@@ -117,7 +117,7 @@
          "isSpecialOffer":true,
          "duration": "3 hour",
          "category": "2",
-         "image": "",
+         "image": "https://imgur.com/trbMlig.png",
          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus, erat vitae consequat eleifend, ante lectus facilisis neque, ac molestie enim erat sed ipsum. Morbi non imperdiet arcu. Ut accumsan mi eget dolor tincidunt, vitae efficitur arcu cursus. Cras fringilla lorem in ante eleifend molestie. In nec semper turpis. Vivamus vitae ipsum volutpat, fringilla lectus at, malesuada nisl. Ut convallis condimentum molestie. Fusce tristique sagittis sem nec placerat. Ut nec est orci.\n\nDonec faucibus velit vitae neque posuere varius sed in libero. Pellentesque suscipit placerat laoreet. Vivamus sodales justo a venenatis ornare. In facilisis cursus blandit. Suspendisse cursus, orci convallis venenatis aliquet, lectus justo mollis augue, sed rutrum magna mi sit amet nulla. Mauris justo nisi, aliquam sed suscipit et, facilisis non diam. "
       },
       {
@@ -189,7 +189,7 @@
          "isSpecialOffer":true,
          "duration": "2 hours",
          "category": "2",
-         "image": "https://via.placeholder.com/780",
+         "image": "https://imgur.com/StLx0Or.png",
          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus, erat vitae consequat eleifend, ante lectus facilisis neque, ac molestie enim erat sed ipsum. Morbi non imperdiet arcu. Ut accumsan mi eget dolor tincidunt, vitae efficitur arcu cursus. Cras fringilla lorem in ante eleifend molestie. In nec semper turpis. Vivamus vitae ipsum volutpat, fringilla lectus at, malesuada nisl. Ut convallis condimentum molestie. Fusce tristique sagittis sem nec placerat. Ut nec est orci.\n\nDonec faucibus velit vitae neque posuere varius sed in libero. Pellentesque suscipit placerat laoreet. Vivamus sodales justo a venenatis ornare. In facilisis cursus blandit. Suspendisse cursus, orci convallis venenatis aliquet, lectus justo mollis augue, sed rutrum magna mi sit amet nulla. Mauris justo nisi, aliquam sed suscipit et, facilisis non diam. "
       },
       {
@@ -201,7 +201,7 @@
          "isSpecialOffer":false,
          "duration": "1 hour",
          "category": "2",
-         "image": "https://via.placeholder.com/780",
+         "image": "https://imgur.com/lYDBv8a.png",
          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus, erat vitae consequat eleifend, ante lectus facilisis neque, ac molestie enim erat sed ipsum. Morbi non imperdiet arcu. Ut accumsan mi eget dolor tincidunt, vitae efficitur arcu cursus. Cras fringilla lorem in ante eleifend molestie. In nec semper turpis. Vivamus vitae ipsum volutpat, fringilla lectus at, malesuada nisl. Ut convallis condimentum molestie. Fusce tristique sagittis sem nec placerat. Ut nec est orci.\n\nDonec faucibus velit vitae neque posuere varius sed in libero. Pellentesque suscipit placerat laoreet. Vivamus sodales justo a venenatis ornare. In facilisis cursus blandit. Suspendisse cursus, orci convallis venenatis aliquet, lectus justo mollis augue, sed rutrum magna mi sit amet nulla. Mauris justo nisi, aliquam sed suscipit et, facilisis non diam. "
       }
    ]

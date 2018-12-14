@@ -16,11 +16,11 @@ import {
   Text,
 } from './style';
 
-const DetailsSection = ({ title, ...props }) => (
+const DetailsSection = (props) => (
   <Wrapper>
-    { title ?
+    { props ?
       <>
-        <Title>{ title }</Title>
+        <Title>{props.title}</Title>
         <Content>
           { props.isSpecialOffer && <Ribbon type="special" text="Special Offer" /> }
           <Row>
