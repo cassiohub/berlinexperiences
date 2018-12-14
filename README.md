@@ -1,3 +1,7 @@
+# Demo
+
+A Demo can be found at (https://berlin-experiences.surge.sh)
+
 # Project
 The main idea of this applications is to provide a simple and curated list of top attractions available in the Berlin area;
 Starting with the home page, the user can see experiences of three different categories: tours, eat & drink, passes;
@@ -36,6 +40,9 @@ Since there are multiple images on every page a lazy load strategy would be bene
 # Running the project
 
 In the project directory, you can run:
+
+### `npm install`
+Installs all project's dependencies
 
 ### `npm start`
 Runs the app in the development mode.<br>
